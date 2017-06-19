@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.todo {
+  width: 200px;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid orange;
+  border-top: 2px solid orange;
+  min-height: 30px;
+  margin-bottom:2px;
+}
+
+.todo.done {
+  border-color: green;
+}
+
+.todo.new {
+  border-color: grey;
+  border-style: solid;
+}
+.todo input[type="text"] {
+  border: none;
+  width: 160px;
+  height:24px;
+}
+
+.todo input[type="checkbox"] {
+  margin: 0 10px;
+}
